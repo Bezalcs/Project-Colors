@@ -1,6 +1,5 @@
 extends CharacterBody2D
 
-
 @export var speed = 300.0
 var _state : int = iddle
 var _target : Vector2
@@ -163,3 +162,4 @@ func _on_hitbox_body_shape_entered(body_rid, body, body_shape_index, local_shape
 	if body.is_in_group("projetil"):
 		hp -= 1
 	pass # Replace with function body.
+print('fui eu que fiz')
